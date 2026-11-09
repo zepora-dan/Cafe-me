@@ -1,28 +1,22 @@
 # Cafe Me
 
-A cafe website with a React + Vite frontend and a Node/TypeScript backend.
+A cafe website where visitors can browse the menu and sign in. It is built with React, Vite, and Node.js.
 
-## Run it locally
+[Open the site locally](http://localhost:5173)
 
-### 1. Backend
-```bash
-cd backend
-npm install
-npm run dev
-```
-Runs at http://localhost:5000
+## How to run it
 
-> Create a `.env` file in `backend` with your own settings (see `.env.example`).
+1. Download or clone this project.
+2. Open two terminals. In the first, run `cd backend`, then `npm install`, then `npm run dev`.
+3. In the second, run `cd my-react-app`, then `npm install`, then `npm run dev`.
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-### 2. Frontend
-In a second terminal:
-```bash
-cd my-react-app
-npm install
-npm run dev
-```
-Open http://localhost:5173
+## How it works
 
-## Project structure
-- `my-react-app/` — frontend (React + Vite)
-- `backend/` — server (Express, auth routes, seed data)
+- The website you see in the browser is built with React and Vite.
+- A Node.js server handles login and stores the cafe data.
+- The website talks to the server automatically, so you only need to open the one link above.
+
+## Built with
+
+React, Vite, Node.js, TypeScript
